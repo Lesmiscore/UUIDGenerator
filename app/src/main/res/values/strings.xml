@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">UUIDGenerator</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="count">Count:</string>
+	<string name="generate">Generate</string>
 
 </resources>

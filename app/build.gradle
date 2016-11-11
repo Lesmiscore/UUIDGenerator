@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.0"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
 
     defaultConfig {
         applicationId "com.nao20010128nao.UUIDgen"
@@ -20,5 +20,6 @@ android {
 }
 
 dependencies {
+	compile 'com.android.support:appcompat-v7:25.+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
